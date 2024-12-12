@@ -1,0 +1,67 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* CSS code to style the hero page, sticky header, and navbar */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../lester.jpg'); /* Replace 'download.jpg' with your image path */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    position: relative; 
+    font-family: Arial, sans-serif; 
+}
+
+
+
+/*HOME*/
+.home {
+    height: 80vh; /* 100% of the viewport height */
+}
+
+/* Center content vertically and horizontally */
+.home-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #1d0419; /* Text color */
+    max-width: 600px;
+}
+
+/* Make the photo oval */
+.myPhoto {
+    width: 280px; /* Adjust the width as needed */
+    max-height: 280px; /* Adjust the height as needed */
+    object-fit: cover; /* Cover the entire container while maintaining aspect ratio */
+    filter: drop-shadow(10px 7px 10px #1d0419);
+    margin-top: 20px; /* Add space between the logo and the image */
+    padding: 15px;
+    border-radius: 50%; /* Make the photo oval */
+}
+
+.home-content h1 {
+    font-size: 40px; /* Decrease font size for better visibility */
+    font-weight: 700;
+    line-height: 1.2;
+    overflow: hidden;
+    white-space: nowrap;
+    text-shadow: 4px 4px 6px rgb(241, 56, 149); /* Add shadow to h1 */
+}
+#center{
+    color:rgb(53, 4, 34);
+}
+/* Subtitle styles */
+.home-content h3 {
+    font-size: 28px; /* Decrease font size for better visibility */
+    font-weight: 700;
+    color: #5e0739;
+    text-shadow: 2px 2px 4px rgb(241, 56, 149); /* Add shadow to h3 */
+}
