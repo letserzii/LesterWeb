@@ -10,7 +10,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('../lester.jpg'); /* Replace 'download.jpg' with your image path */
+    background-image: url('lester.jpg'); /* Replace 'download.jpg' with your image path */
     background-size: cover; /* Cover the entire container */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent background from repeating */
